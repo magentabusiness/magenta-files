@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Hintergrundbilder IoT Hub</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #86acdb; /* Hintergrundfarbe der Seite */
+            margin: 0; /* Entfernt den Standardaußenabstand */
+            font-family: Roboto, sans-serif; /* Schriftart */
+        }
+        .header {
+            display: flex;
+            flex-direction: column;
+        }
+        .logo-container {
+            display: flex;
+            align-items: center; /* Zentriert das Logo vertikal */
+            height: 60px; /* Höhe der Logo-Zeile */
+            background-color: #ffffff; /* Hintergrundfarbe des Kopfbereichs */
+            padding-left: 100px; /* Abstand von der linken Seite */
+        }
+        .logo {
+            height: 29px; /* Höhe des Logos */
+            width: auto; /* Beibehaltung des Seitenverhältnisses */
+        }
+        .separator {
+            height: 1px;
+            background-color: #cccccc; /* Dünner grauer Strich */
+            margin: 0; /* Kein Abstand um die Linie */
+        }
+        .nav-container {
+            display: flex;
+            align-items: center; /* Zentriert die Navigation vertikal */
+            height: 80px; /* Höhe der Menüzeile */
+            background-color: #ffffff; /* Hintergrundfarbe der Menüzeile */
+            padding-left: 100px; /* Abstand von der linken Seite */
+        }
+        .nav {
+            display: flex;
+            gap: 30px; /* Abstand zwischen den Menüpunkten */
+        }
+        .nav a {
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 16px;
+        }
+        .banner {
+            background-color: #e20074; /* Hintergrundfarbe des Banners */
+            color: white;
+            padding: 90px 20px; /* Verdoppelte Höhe */
+            padding-left: 100px; /* Linksbündig mit 100px Abstand */
+            text-align: left; /* Linksbündiger Text */
+        }
+        .banner h2 {
+            font-size: 48px;
+            margin: 0 0 20px 0;
+        }
+        .banner a {
+            display: inline-block;
+            background-color: black;
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .content {
+            text-align: center; /* Zentriert den Inhalt */
+            padding: 80px 20px; /* Verdoppelte Höhe */
+        }
+        h1 {
+            font-size: 92px; /* Schriftgröße */
+            font-family: 'Roboto', sans-serif;
+            color: black; /* Schriftfarbe */
+            margin: 20px 0; /* Abstand oben und unten */
+        }
+        .content p, .content img {
+            font-weight: normal; /* Setzt den Text auf normal (nicht fett) */
+        }
+        .content p {
+            font-size: 16px;
+            color: #333;
+        }
+        .content img {
+            display: block;
+            width: 60%; /* Setzt die Breite der Bilder auf 60% der Bildschirmbreite */
+            height: auto; /* Beibehaltung des Seitenverhältnisses */
+            margin: 20px auto; /* Zentriert die Bilder horizontal und fügt vertikalen Abstand hinzu */
+        }
+        .spacer {
+            height: 20px; /* Höhe der leeren Zeile */
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo-container">
+            <img src="logo_magenta.png" alt="Logo" class="logo">
+        </div>
+        <div class="separator"></div>
+        <div class="nav-container">
+            <nav class="nav">
+                <a href="https://www.magenta.at/business/iot">Internet of Things</a>
+                <a href="https://www.magenta.at/business/iot">IoT Plug & Play Lösungen</a>
+                <a href="https://www.magenta.at/business/iot">IoT Individuallösungen</a>
+            </nav>
+        </div>
+    </div>
+    <div class="banner">
+        <h2>Magenta IoT Hub</h2>
+        <a href="https://www.magenta.at/business/iot/plattformen/iot-hub">Mehr erfahren</a>
+    </div>
+    <div class="content">
+        <h1>Der Magenta IoT Hub</h1>
+        <h1>im neuen Look</h1>
+        <div class="spacer"></div> <!-- Leere Zeile unterhalb der Überschrift -->
+        <p>Die offiziellen Hintergrundbilder für den Magenta IoT Hub.</p>
+        <img src="img01m.jpg" alt="Bild 1">
+        <img src="img02m.jpg" alt="Bild 2">
+    </div>
+</body>
+</html>
